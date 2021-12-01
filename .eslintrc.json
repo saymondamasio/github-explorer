@@ -19,9 +19,9 @@
         {
           "unnamedComponents": "function-expression"
         }
-      ]
-    },
-    "import/resolver": {
-      "typescript": {}
+      ],
+      "import/resolver": {
+        "typescript": {}
+      }
     }
 }
