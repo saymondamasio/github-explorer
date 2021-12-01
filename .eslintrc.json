@@ -14,24 +14,14 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "react/function-component-definition": [
-      2,
-      {
-        "unnamedComponents": "function-expression"
-      }
-    ],
-    "import/prefer-default-export": "off",
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [
-          ".jsx",
-          ".tsx"
-        ]
-      }
-    ],
+      "react/function-component-definition": [
+        2,
+        {
+          "unnamedComponents": "function-expression"
+        }
+      ]
+    },
     "import/resolver": {
-        "typescript": {}
+      "typescript": {}
     }
-  }
 }
