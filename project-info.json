@@ -1,0 +1,5 @@
+{
+  "name": "Github Explorer",
+  "short_description": "Explore mais o Github",
+  "description": "Uma aplicação feita em React.js que permite ao usuário acessar os repositórios da organização da Rocketseat"
+}
