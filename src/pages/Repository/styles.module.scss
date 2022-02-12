@@ -1,0 +1,105 @@
+.container {
+  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px;
+
+  background: url(../../assets/github-background.svg) no-repeat 70% -50px;
+
+  header {
+    max-width: 714px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      text-decoration: none;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+
+      /* Textos Dark / Textos */
+
+      color: #a8a8b3;
+    }
+  }
+
+  main {
+    margin: 0 auto;
+    margin-top: 80px;
+
+    max-width: 714px;
+
+    .infoRepo {
+      display: flex;
+      align-items: center;
+      img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      > div {
+        margin-left: 32px;
+
+        strong {
+          font-size: 36px;
+          line-height: 42px;
+
+          /* Textos Light / Títulos */
+
+          color: #3d3d4d;
+        }
+
+        p {
+          margin-top: 12px;
+
+          font-size: 20px;
+          line-height: 23px;
+
+          /* Textos Dark / Textos apoio */
+
+          color: #737380;
+        }
+      }
+    }
+
+    .moreInfo {
+      margin-top: 40px;
+
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 80px;
+
+        li {
+          display: flex;
+          flex-direction: column;
+
+          strong {
+            font-size: 36px;
+            line-height: 42px;
+
+            /* Textos Light / Títulos */
+
+            color: #3d3d4d;
+          }
+        }
+      }
+    }
+
+    .listRepositories {
+      margin-top: 80px;
+    }
+  }
+}
