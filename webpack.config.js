@@ -11,7 +11,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/',
+    publicPath: isDevelopment ? '/' : 'github-explorer',
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
