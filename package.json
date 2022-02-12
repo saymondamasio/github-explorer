@@ -6,7 +6,7 @@
   "homepage": "github-explorer",
   "scripts": {
     "dev": "webpack server",
-    "production": "cross-env NODE_ENV=production webpack"
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "dependencies": {
     "react": "^17.0.2",
