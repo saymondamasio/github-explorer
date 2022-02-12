@@ -1,8 +1,6 @@
-import { RepositoryList } from './components/RepositoryList'
+import { RoutesApp } from './routes'
 import './styles/global.scss'
 
 export function App() {
-  return <div>
-      <RepositoryList />
-  </div>
+  return <RoutesApp />
 }
