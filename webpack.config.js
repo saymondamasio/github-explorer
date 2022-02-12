@@ -11,7 +11,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/',
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
@@ -19,7 +18,6 @@ module.exports = {
   devServer: {
     hot: true,
     historyApiFallback: true,
-    contentBase: './dist',
     static: {
       directory: path.join(__dirname, 'public'),
     },
