@@ -1,0 +1,62 @@
+.container {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+
+  min-height: 112px;
+
+  display: flex;
+  align-items: center;
+
+  & + .container {
+    margin-top: 16px;
+  }
+
+  img {
+    height: 83px;
+    width: 83px;
+    object-fit: cover;
+
+    border-radius: 50%;
+  }
+
+  .infoRepo {
+    flex: 1;
+    margin-left: 22px;
+    min-width: 0;
+
+    a {
+      text-decoration: none;
+      strong {
+        font-style: normal;
+        font-size: 24px;
+        line-height: 28px;
+
+        /* Textos Light / Títulos */
+
+        color: #3d3d4d;
+      }
+    }
+
+    p {
+      margin-top: 4px;
+      font-size: 18px;
+      line-height: 21px;
+      /* identical to box height */
+
+      /* Textos Dark / Textos */
+
+      color: #a8a8b3;
+
+      // não quebrar linha
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      max-width: 70%;
+    }
+  }
+  svg {
+    margin-left: auto;
+    margin-right: 10px;
+  }
+}
