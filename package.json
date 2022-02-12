@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "github-explorer",
   "scripts": {
     "dev": "webpack server",
     "production": "cross-env NODE_ENV=production webpack"

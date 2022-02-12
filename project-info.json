@@ -1,5 +1,53 @@
 {
   "name": "Github Explorer",
   "short_description": "Explore mais o Github",
-  "description": "Uma aplicação feita em React.js que permite ao usuário acessar os repositórios da organização da Rocketseat"
+  "description": "Uma aplicação feita em React.js que permite ao usuário acessar os repositórios do GitHub",
+  "videos": [
+    "https://raw.githubusercontent.com/saymondamasio/github-explorer/main/.github/demonstration.mp4"
+  ],
+  "images": [
+    "https://raw.githubusercontent.com/saymondamasio/github-explorer/main/.github/screenshot-1.jpg",
+    "https://raw.githubusercontent.com/saymondamasio/github-explorer/main/.github/screenshot-2.jpg",
+    "https://raw.githubusercontent.com/saymondamasio/github-explorer/main/.github/screenshot-3.jpg",
+    "https://raw.githubusercontent.com/saymondamasio/github-explorer/main/.github/screenshot-4.jpg",
+    "https://raw.githubusercontent.com/saymondamasio/github-explorer/main/.github/screenshot-5.jpg"
+  ],
+  "techs": [
+    {
+      "name": "React.js",
+      "url": "https://reactjs.org/"
+    },
+    {
+      "name": "Typescript",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "name": "React Icons",
+      "url": "https://react-icons.netlify.com/"
+    },
+    {
+      "name": "Github API",
+      "url": "https://docs.github.com"
+    },
+    {
+      "name": "SASS",
+      "url": "https://sass-lang.com/"
+    },
+    {
+      "name": "Babel",
+      "url": "https://babeljs.io/"
+    },
+    {
+      "name": "Webpack",
+      "url": "https://webpack.js.org/"
+    },
+    {
+      "name": "Eslint",
+      "url": "https://eslint.org/"
+    },
+    {
+      "name": "Prettier",
+      "url": "https://prettier.io/"
+    }
+  ]
 }
