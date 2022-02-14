@@ -2,16 +2,13 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
 
-const isDevelopment = process.env.NODE_ENV !== 'production'
-
 module.exports = {
-  mode: isDevelopment ? 'development' : 'production',
-  devtool: isDevelopment ? 'eval-source-map' : 'source-map',
+  mode: 'development',
+  devtool: 'eval-source-map',
   entry: path.resolve(__dirname, 'src', 'index.tsx'),
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: isDevelopment ? '/' : '',
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
@@ -19,17 +16,19 @@ module.exports = {
   devServer: {
     hot: true,
     historyApiFallback: true,
+    open: true,
+    port: 8080,
     static: {
       directory: path.join(__dirname, 'public'),
     },
   },
   plugins: [
-    isDevelopment && new ReactRefreshWebpackPlugin(),
+    new ReactRefreshWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html'),
       favicon: path.resolve(__dirname, 'public', 'favicon.png'),
     }),
-  ].filter(Boolean),
+  ],
   module: {
     rules: [
       {
@@ -39,9 +38,7 @@ module.exports = {
           {
             loader: 'babel-loader',
             options: {
-              plugins: [
-                isDevelopment && require.resolve('react-refresh/babel'),
-              ].filter(Boolean),
+              plugins: [require.resolve('react-refresh/babel')],
             },
           },
         ],
