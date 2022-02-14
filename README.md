@@ -8,6 +8,8 @@
 
 <p align="center">Explore mais o Github</p>
 
+https://user-images.githubusercontent.com/50559834/153943835-a100054e-2b9a-42c4-8b65-864d4291eda1.mp4
+
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/saymondamasio/github-explorer">
 
