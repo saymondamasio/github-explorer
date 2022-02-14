@@ -12,6 +12,7 @@
     "https://raw.githubusercontent.com/saymondamasio/github-explorer/main/.github/screenshot-4.jpg",
     "https://raw.githubusercontent.com/saymondamasio/github-explorer/main/.github/screenshot-5.jpg"
   ],
+  "preview_url": "https://saymondamasio.github.io/github-explorer/",
   "techs": [
     {
       "name": "React.js",
