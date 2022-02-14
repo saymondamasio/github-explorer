@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "github-explorer",
+  "homepage": "https://saymondamasio.github.io/github-explorer",
   "scripts": {
     "dev": "webpack server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
